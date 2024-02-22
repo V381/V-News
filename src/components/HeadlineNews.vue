@@ -50,7 +50,7 @@
     try {
       loadingStore.startLoading();
       const url =
-        'http://newsapi.org/v2/top-headlines?' +
+        'https://newsapi.org/v2/top-headlines?' +
         'country=rs&' +
         'apiKey=65f5bf5de3ce404c853c0aac623504d6';
       const response = await axios.get(url);
